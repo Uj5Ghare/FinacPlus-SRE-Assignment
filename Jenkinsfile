@@ -55,7 +55,7 @@ pipeline {
                     sh """
                         kubectl apply -f k8s/namespace.yml,k8s/deployment.yml,k8s/service.yml
                         kubectl set image deployment/finacplus-deployment finacplus-con=$REGISTRY_REPO/$IMAGE_NAME:$IMAGE_TAG -n finacplus
-                        kubectl rollout status deployment/finacplus-deployment -n finacplus
+                        // kubectl rollout status deployment/finacplus-deployment -n finacplus
                     """
                 }
             }
