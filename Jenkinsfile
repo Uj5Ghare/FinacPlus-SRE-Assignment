@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/Uj5Ghare/FinacPlus-SRE-Assignment.git', branch: 'k8s'
+                git url: 'https://github.com/Uj5Ghare/FinacPlus-SRE-Assignment.git', branch: 'main'
             }
         }
 
