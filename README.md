@@ -1,4 +1,4 @@
-# FinacPlus-SRE-Assignment
-FinacPlus SRE DevOps Assignment
+# FinacPlus-SRE-Project
+FinacPlus SRE DevOps Project
 
 ![Logo](app.png)
